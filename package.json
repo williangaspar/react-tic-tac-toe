@@ -1,0 +1,28 @@
+{
+  "name": "react-tic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "tic_tac_toe": "file:tic-tac-toe"
+  },
+  "devDependencies": {
+    "@types/enzyme": "2.7.1",
+    "@types/jest": "^18.1.1",
+    "@types/node": "^8.0.31",
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "15.5.4",
+    "enzyme": "2.7.1",
+    "react-addons-test-utils": "15.4.2",
+    "react-scripts-ts": "2.7.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}

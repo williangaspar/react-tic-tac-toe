@@ -1,0 +1,30 @@
+.CellContainer {
+  margin: 5px;
+  margin-top: 12px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.Cell {
+  text-align: center;
+  font-size: 32px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.Cell:hover {
+  background-color: #E9E9E9;
+}
+
+.X {
+  color: #FF0F0F;
+}
+
+.O {
+  color: #000AFF;
+}
+
+.VictoryCell {
+  background-color: #78F74E;
+}

@@ -1,0 +1,21 @@
+.ScoreContainer {
+  margin: auto;
+  width: 400px;
+  padding-bottom: 10px;
+  background-color: #F3730A;
+  border-radius: 7px;
+}
+
+.ScoreContainer p {
+  color: white;
+  font-size: 20px;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+
+.Score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 30px;
+  color: floralwhite;
+}

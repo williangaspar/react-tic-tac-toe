@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.AppContent {
+  width: 425px;
+  height: 410px;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.AppContent p {
+  font-size: 30px;
+  color: gray;
+  margin: 12px;
+}
+
+.AppContent a {
+  font-size: 18px;
+  color: #1324B9;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.AppContent a:hover {
+  color: #3535E9;
+  font-size: 19px;
+}
+
+.AppHeader {
+  background-color: #222;
+  height: 40px;
+  padding: 25px;
+  color: floralwhite;
+  font-size: 32px;
+}

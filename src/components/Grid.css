@@ -1,0 +1,10 @@
+.Grid {
+  background-image: url(game.svg);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60px 60px;
+  width: 190px;
+  height: 180px;
+  position: relative;
+  margin: auto;
+}
